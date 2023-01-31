@@ -1,0 +1,81 @@
+(base) crc-dot1x-nat-10-239-127-211:Testing samuelcasey$ sml assign00-01-test.sml
+Standard ML of New Jersey (64-bit) v110.99.3 [built: Thu Jul 28 00:35:16 2022]
+[opening assign00-01-test.sml]
+[opening ./../MySolution/assign00-01.sml]
+val fact = fn : int -> int
+val checkOverflow = fn : int -> int
+val it = 21 : int
+val it = () : unit
+assign00-01-test.sml:14.5 Error: unbound variable or constructor: N
+(base) crc-dot1x-nat-10-239-127-211:Testing samuelcasey$ sml assign00-02-test.sml
+Standard ML of New Jersey (64-bit) v110.99.3 [built: Thu Jul 28 00:35:16 2022]
+[opening assign00-02-test.sml]
+[opening ./../MySolution/assign00-02.sml]
+[opening ./../assign00-lib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+val ord = fn : char -> int
+val chr = fn : int -> char
+val str = fn : char -> string
+val strlen = fn : string -> int
+val strcat = fn : string * string -> string
+val strsub = fn : string * int -> char
+val it = () : unit
+val primeHelper = fn : int * int -> bool
+val isPrime = fn : int -> bool
+val it = () : unit
+
+uncaught exception Error
+  raised at: assign00-02-test.sml:10.36-10.41
+(base) crc-dot1x-nat-10-239-127-211:Testing samuelcasey$ sml assign00-03-test.sml
+Standard ML of New Jersey (64-bit) v110.99.3 [built: Thu Jul 28 00:35:16 2022]
+[opening assign00-03-test.sml]
+[opening ./../MySolution/assign00-03.sml]
+val int2str = fn : int -> string
+val it = () : unit
+Assign00-03-test passed!
+- ^D
+(base) crc-dot1x-nat-10-239-127-211:Testing samuelcasey$ sml assign00-04-test.sml
+Standard ML of New Jersey (64-bit) v110.99.3 [built: Thu Jul 28 00:35:16 2022]
+[opening assign00-04-test.sml]
+[opening ./../MySolution/assign00-04.sml]
+[opening ./../assign00-lib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+val ord = fn : char -> int
+val chr = fn : int -> char
+val str = fn : char -> string
+val strlen = fn : string -> int
+val strcat = fn : string * string -> string
+val strsub = fn : string * int -> char
+val it = () : unit
+val tensPlace = fn : int * int -> int
+val helper = fn : string * int * int -> int
+val str2int = fn : string -> int
+val it = () : unit
+Assign00-04-test passed!
+- ^D
+(base) crc-dot1x-nat-10-239-127-211:Testing samuelcasey$ sml assign00-05-test.sml
+Standard ML of New Jersey (64-bit) v110.99.3 [built: Thu Jul 28 00:35:16 2022]
+[opening assign00-05-test.sml]
+[opening ./../MySolution/assign00-05.sml]
+[opening ./../assign00-lib.sml]
+[autoloading]
+[library $SMLNJ-BASIS/basis.cm is stable]
+[library $SMLNJ-BASIS/(basis.cm):basis-common.cm is stable]
+[autoloading done]
+val ord = fn : char -> int
+val chr = fn : int -> char
+val str = fn : char -> string
+val strlen = fn : string -> int
+val strcat = fn : string * string -> string
+val strsub = fn : string * int -> char
+val it = () : unit
+val revHelper = fn : string * int -> string
+val stringrev = fn : string -> string
+val it = () : unit
+Assign00-05-test passed!
