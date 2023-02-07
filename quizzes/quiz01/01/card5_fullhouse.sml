@@ -172,8 +172,33 @@ fun card5_fullhouse(cs: card5): bool
 //
 *)
 
-fun
-card5_fullhouse(cs: card5): bool =
+
+fun fullhelper1(x: int5): bool = 
+  if #2(x)=#3(x) then fullhelper3(x) else fullhelper4(x)
+
+fun fullhelper3(x: int5): bool =
+  if #4(x)=#5(x) then true else false
+
+fun fullhelper4(x: int5): bool =
+  if #3(x)=#4(x) then fullhelper5(x) else false
+
+fun fullhelper5(x: int5): bool =
+  if #4(x)=#5(x) then true else false
+
+
+
+fun card5_fullhouse(cs: card5): bool =
+  val y : (int*int*int*int*int)= (rank2int(card_rank(#1(cs))), rank2int(card_rank(#2(cs))), rank2int(card_rank(#3(cs))), rank2int(card_rank(#4(cs))), rank2int(card_rank(#5(cs))))
+  val x : (int*int*int*int*int) = int5_sort(y)
+  if #1(x)=#2(x) then fullhelper1(x) else false
+
+
+
+
+
+
+
+
 (*
 Please Give your implementation as follows:
 *)
